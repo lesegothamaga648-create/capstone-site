@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Lesego's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lesego's Portfolio</h1>
+
+        <nav class="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="projects.html" class="nav-link">Projects</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Have a question or want to get in touch? Send me a message.</p>
+
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" minlength="10" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="formMessage" role="status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lesego's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

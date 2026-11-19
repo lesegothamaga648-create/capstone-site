@@ -155,3 +155,33 @@ footer {
         padding: 15px;
     }
 }
+
+/* DARK MODE */
+body.dark-mode {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #111;
+}
+
+body.dark-mode .project-card {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #aaa;
+}
+
+#themeToggle {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
